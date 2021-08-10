@@ -92,17 +92,59 @@ export default {
             },
           ],
         },
+        {
+          q: "how many planets are there in the universe?",
+          answers: [
+            {
+              text: "10,000,000,000,000,000,000,000,000",
+              is_correct: true,
+            },
+            {
+              text: "100,000,000,000,000,000,000,000,000",
+              is_correct: false,
+            },
+            {
+              text: "1,000,000,000,000,000,000,000,000,000",
+              is_correct: false,
+            },
+            {
+              text: "10,000,000,000,000,000,000,000,000,000",
+              is_correct: false,
+            },
+          ],
+        },
+        {
+          q: "Which one is Manut's girlfriend?",
+          answers: [
+            {
+              text: "Jennie",
+              is_correct: false,
+            },
+            {
+              text: "Lisa",
+              is_correct: false,
+            },
+            {
+              text: "Jisoo",
+              is_correct: true,
+            },
+            {
+              text: "Rose",
+              is_correct: false,
+            },
+          ],
+        },
       ],
       results: [
         {
           min: 0,
-          max: 2,
+          max: 4,
           title: "Try again!",
           desc: "Do a little more studying and you may succeed!",
         },
         {
-          min: 3,
-          max: 3,
+          min: 5,
+          max: 5,
           title: "Wow, you're a genius!",
           desc: "Studying has definitely paid off for you!",
         },
