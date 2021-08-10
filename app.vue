@@ -114,22 +114,22 @@ export default {
           ],
         },
         {
-          q: "Which one is Manut's girlfriend?",
+          q: "Which country has won the most Olympic medals",
           answers: [
             {
-              text: "Jennie",
+              text: "The United States",
               is_correct: false,
             },
             {
-              text: "Lisa",
+              text: "Austalia",
               is_correct: false,
             },
             {
-              text: "Jisoo",
+              text: "China",
               is_correct: true,
             },
             {
-              text: "Rose",
+              text: "Cambodia",
               is_correct: false,
             },
           ],
